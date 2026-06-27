@@ -67,7 +67,7 @@ Open `http://localhost:5173` in your browser.
 
 ![Features Section Preview](https://github.com/user-attachments/assets/84fdcf82-3255-4857-ac9d-3913c5fd3071)
 
-![Preview](https://github.com/user-attachments/assets/d224fead-dd4e-4ea1-a5f7-f8022926e56b)
+<!-- ![Preview](https://github.com/user-attachments/assets/d224fead-dd4e-4ea1-a5f7-f8022926e56b) -->
 
 ---
 
