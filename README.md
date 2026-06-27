@@ -1,13 +1,10 @@
-
-
-
 # 🚀 GearXpert Landing Page
 
 ![GearXpert Landing Preview](https://github.com/user-attachments/assets/874723bd-d2ec-41d6-9316-7862783cf1c4)
 
 **GearXpert Client** is a sleek and interactive landing page for GearXpert, designed with a modern theme and dynamic video elements. Built using **React** and **Vite**, it combines smooth animations, engaging visuals, and fully responsive layouts to deliver a premium user experience.
 
-🔗 **Live Demo:** [https://gear-xpert-client-smoky.vercel.app/](https://gear-xpert-client-smoky.vercel.app/)
+🔗 **Live Demo:** https://gear-x-omega.vercel.app/
 
 ---
 
@@ -21,22 +18,23 @@ The GearXpert landing page is frontend-only, focusing on a compelling user inter
 
 ## 🛠 Technology Stack
 
-* **React** + **Vite**: Modern frontend framework and build tool
-* **Tailwind CSS**: Utility-first CSS for rapid and responsive design
-* Video backgrounds for immersive engagement
-* Responsive layout for desktop, tablet, and mobile
-* Vercel for deployment
+* **React** + **Vite**
+* **Tailwind CSS**
+* Responsive UI Design
+* Dynamic Video Backgrounds
+* Smooth Animations
+* Vercel Deployment
 
 ---
 
 ## ✨ Key Features
 
-* Stunning, modern landing page with dynamic video backgrounds
-* Fully responsive and mobile-friendly interface
-* Interactive UI with smooth animations and scroll effects
-* Lightweight and optimized for fast loading
-* Clean, maintainable component-based architecture
-* Visually engaging design suitable for product promotion and branding
+* Stunning modern landing page
+* Fully responsive design
+* Smooth animations and transitions
+* Lightweight and optimized
+* Clean component-based architecture
+* Product showcase and branding focused UI
 
 ---
 
@@ -45,8 +43,8 @@ The GearXpert landing page is frontend-only, focusing on a compelling user inter
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Anirudh-Singh-26/GearXpert-Client.git
-cd GearXpert-Client
+git clone https://github.com/RidamAgarwal38/GearX.git
+cd GearX
 ```
 
 ### 2. Install Dependencies
@@ -61,27 +59,26 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) to view the landing page locally.
+Open `http://localhost:5173` in your browser.
 
 ---
 
 ## 🖼 Additional Screenshots
 
 ![Features Section Preview](https://github.com/user-attachments/assets/84fdcf82-3255-4857-ac9d-3913c5fd3071)
-![image](https://github.com/user-attachments/assets/d224fead-dd4e-4ea1-a5f7-f8022926e56b)
 
-
-*Explore the landing page directly on the live demo to see animations and video effects!*
+![Preview](https://github.com/user-attachments/assets/d224fead-dd4e-4ea1-a5f7-f8022926e56b)
 
 ---
 
 ## 👤 Author
 
-Anirudh Singh Rathore
-[GitHub Profile](https://github.com/Anirudh-Singh-26)
+### Ridam Agrawal
+
+* GitHub: https://github.com/RidamAgarwal38
 
 ---
 
 ## 📄 License
 
-MIT © Anirudh Singh Rathore
+MIT License © 2026 Ridam Agrawal
