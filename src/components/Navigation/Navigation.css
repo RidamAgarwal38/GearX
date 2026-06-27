@@ -1,0 +1,140 @@
+/* Keyframe animation for width transition */
+@keyframes move {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+/* Active state with the animated underline effect */
+.active::before {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #ef4444, #f97316);
+    position: absolute;
+    animation: move 0.6s ease-out forwards;
+    left: 0;
+    border-radius: 10px;
+    bottom: 0;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
+}
+
+/* Navigation Bar Enhancement */
+nav {
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+    z-index: 100;
+}
+
+/* Logo Hover Effect */
+.logo-container {
+    transition: all 0.3s ease;
+}
+
+.logo-container:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 10px rgba(239, 68, 68, 0.3));
+}
+
+/* Menu Items Styling */
+.menu-item {
+    position: relative;
+    transition: all 0.3s ease;
+    color: #f3f4f6;
+}
+
+.menu-item:hover {
+    color: #ef4444;
+    transform: translateY(-2px);
+}
+
+.menu-item::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(90deg, #ef4444, #f97316);
+    transition: width 0.3s ease;
+    border-radius: 10px;
+}
+
+.menu-item:hover::after {
+    width: 100%;
+}
+
+/* Social Icons */
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+    transition: all 0.3s ease;
+    margin: 0 8px;
+}
+
+.social-icon:hover {
+    background: linear-gradient(135deg, #ef4444, #f97316);
+    color: white;
+    transform: translateY(-3px) scale(1.1);
+    box-shadow: 0 8px 20px rgba(239, 68, 68, 0.4);
+}
+
+/* Hamburger Menu */
+.hamburger {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hamburger span {
+    width: 100%;
+    height: 2px;
+    background: #ef4444;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    backdrop-filter: blur(20px);
+    background: rgba(0, 0, 0, 0.95);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .active::before {
+        display: none;
+    }
+}
+
