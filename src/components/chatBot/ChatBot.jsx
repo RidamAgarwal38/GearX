@@ -35,9 +35,14 @@ const ChatBot = () => {
   return (
     <>
       {/* Chatbot Icon */}
-      <div
+      {/* <div
         className=" w-12 h-12 lg:w-24 lg:h-24 fixed right-8 bottom-8 z-50 cursor-pointer"
         onClick={() => setIsChatOpen(!isChatOpen)}
+      > */}
+
+      <div
+        className=" w-12 h-12 lg:w-24 lg:h-24 fixed right-8 bottom-8 z-50 cursor-pointer"
+       
       >
         <img src={botImage} alt=" Chat Bot Icon" className="chatbot w-full h-full object-contain" />
       </div>
